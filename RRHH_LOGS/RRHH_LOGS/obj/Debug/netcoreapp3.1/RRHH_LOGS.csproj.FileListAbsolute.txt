@@ -1,0 +1,14 @@
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.exe
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.deps.json
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.runtimeconfig.json
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.runtimeconfig.dev.json
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.dll
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\bin\Debug\netcoreapp3.1\RRHH_LOGS.pdb
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.AssemblyInfo.cs
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.dll
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.pdb
+C:\Users\jorge\OneDrive - República Digital Educación\1 - UNIVERSIDAD\C3-2021\Programación II (TDS-006)\Programas\RRHH_LOGS\RRHH_LOGS\obj\Debug\netcoreapp3.1\RRHH_LOGS.genruntimeconfig.cache

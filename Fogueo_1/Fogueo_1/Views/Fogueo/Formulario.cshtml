@@ -1,0 +1,35 @@
+﻿@model Fogueo_1.Models.FormIsModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Tittle = ">DATOS INGRESADOS<";
+}
+<div id="encabezado" class="bg-white">
+    <h1 class="text-center text-white">
+        @ViewBag.Tittle
+    </h1>
+    <fieldset id="encabezado1" class="text-justify text-dark">
+        <label>Cédula: @Model.Cedula</label>
+        <br />
+        <label>Nombre: @Model.Nombre</label>
+        <br />
+        <label>Apellido: @Model.Apellido</label>
+        <br />
+        <label>Edad: @Model.Edad</label>
+        <br />
+        <label>Teléfono: @Model.Telefono</label>
+        <br />
+        <label>Correo electrónico: @Model.Email</label>
+        <br />
+        <label>Género: @Model.Genero</label>
+        <br />
+        <label>Estado civil: @Model.EstadoCivil</label>
+        <br />
+        <label>Hobbies: @Model.Hobbies</label>
+        <br />
+        <label>Foto: </label>
+        <br />
+        <img src=@Model.Foto sizes="20%">
+    </fieldset>
+</div>

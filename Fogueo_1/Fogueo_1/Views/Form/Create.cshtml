@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Tittle = ">FORMULARIO DE DATOS<";
+}
+<div id="encabezado" class="bg-white">
+    <h1 class="text-center text-white">
+        @ViewBag.Tittle
+    </h1>
+    <fieldset id="encabezado1">
+        <form asp-controller="FormController" asp-action="Index" method="post" enctype="multipart/form-data">
+            <input type="text" name="cedula" placeholder="Inserte la cédula aquí" class="form-control" required />
+            <br />
+            <input type="text" name="nombre" placeholder="Inserte su/s nombre/s aquí" class="form-control" required />
+            <br />
+            <input type="text" name="apellido" placeholder="Inserte su/s apellido/s aquí" class="form-control" required />
+            <br />
+            <input type="text" name="edad" placeholder="Inserte su edad" min="18" class="form-control" required />
+            <br />
+            <input type="text" name="telefono" placeholder="Inserte su teléfono" class="form-control" required />
+            <br />
+            <input type="text" name="email" placeholder="Inserte su correo electronico" class="form-control" required />
+            <br />
+            <br />
+            <label><strong>Género:</strong></label>
+            <br />
+            <input type="radio" id="masculino" name="genero" value="masculino"> <label for="masculino"> Masculino</label>
+            <br />
+            <input type="radio" id="femenino" name="genero" value="femenino"> <label for="femenino"> Femenino</label>
+            <br />
+            <input type="radio" id="noBinario" name="genero" value="no binario"> <label for="noBinario"> No binario</label>
+            <br />
+            <input type="radio" id="otroGenero" name="genero" value="otro"> <label for="otroGenero"> Otro</label>
+            <br />
+            <br />
+            <label><strong>Estado civil:</strong></label>
+            <br />
+            <input type="radio" id="soltero" name="estadoCivil" value="soltero"> <label for="soltero"> Soltero</label>
+            <br />
+            <input type="radio" id="unionLibre" name="estadoCivil" value="unión libre"> <label for="unionLibre"> Unión libre</label>
+            <br />
+            <input type="radio" id="casado" name="estadoCivil" value="casado"> <label for="casado"> Casado</label>
+            <br />
+            <input type="radio" id="divorciado" name="estadoCivil" value="divorciado"> <label for="divorciado"> Divorciado</label>
+            <br />
+            <br />
+            <label><strong>Hobby/Hobbies:</strong></label>
+            <br />
+            <input type="checkbox" id="ver" name="hobbies" value="ver series/peliculas"> <label for="ver"> Ver series/peliculas</label>
+            <br />
+            <input type="checkbox" id="escuchar" name="hobbies" value="escuchar/escribir música"> <label for="escuchar"> Escuchar/escribir música</label>
+            <br />
+            <input type="checkbox" id="leer" name="hobbies" value="leer/escribir libros"> <label for="leer"> Leer/escribir libros</label>
+            <br />
+            <input type="checkbox" id="documental" name="hobbies" value="observar documentales/materiales didacticos"> <label for="otro"> Observar documentales/materiales didacticos</label>
+            <br />
+            <br />
+            <input type="file" name="foto" placeholder="Inserte su foto" class="form-control" required />
+            <br />
+            <input type="submit" value="ENVIAR" />
+        </form>
+    </fieldset>
+</div>

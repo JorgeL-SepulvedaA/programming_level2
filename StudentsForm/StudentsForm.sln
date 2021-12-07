@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsForm", "StudentsForm\StudentsForm.csproj", "{406A88DD-112A-49EA-A03D-6CD546E85937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsITLA", "..\..\..\..\..\..\source\repos\StudentsITLA\StudentsITLA\StudentsITLA.csproj", "{2386B730-AA14-4086-BE20-D8554F9B0189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406A88DD-112A-49EA-A03D-6CD546E85937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406A88DD-112A-49EA-A03D-6CD546E85937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406A88DD-112A-49EA-A03D-6CD546E85937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406A88DD-112A-49EA-A03D-6CD546E85937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2386B730-AA14-4086-BE20-D8554F9B0189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2386B730-AA14-4086-BE20-D8554F9B0189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2386B730-AA14-4086-BE20-D8554F9B0189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2386B730-AA14-4086-BE20-D8554F9B0189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D7121AF-61EB-406A-B26F-E82CF920281A}
+	EndGlobalSection
+EndGlobal

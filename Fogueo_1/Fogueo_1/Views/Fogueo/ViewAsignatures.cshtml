@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Fogueo_1.Models.AsignaturesModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAsignatures</title>
+    <style>
+        table {
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
+        }
+        body {
+            background-image: url("https://images6.alphacoders.com/601/thumb-1920-601846.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    </style>
+</head>
+<body>
+<p class="font-weight-bold text-light">
+    <a class="btn btn-dark" asp-controller="FogueoController" asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered border-light text-white text-center bg-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoAsignatura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreAsignatura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreditosAsignatura)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="font-italic">
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoAsignatura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreAsignatura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreditosAsignatura)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

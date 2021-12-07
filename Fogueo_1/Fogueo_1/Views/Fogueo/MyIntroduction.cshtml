@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Tittle = "【﻿•　Ｆｏｇｕｅｏ　ｃｏｄｅ　•】";
+}
+<div id="encabezado" class="bg-white">
+    <h1 class="text-center text-white">
+        @ViewBag.Tittle
+    </h1>
+    <fieldset id="encabezado1">
+        <h2 class="text-center">
+            <img src=@ViewBag.Image sizes="20%">
+            @ViewData["Nombre"] @ViewData["Apellido"]
+        </h2>
+        <h4 class="text-center">
+            FECHA NACIMIENTO: @ViewData["FechaNacimento"] <br />
+            CARRERA: @ViewBag.Career <br />
+            MATRÍCULA: @ViewBag.Id <br />
+            GRUPO: @ViewBag.Group <br />
+            CORREO: @ViewBag.Email <br />
+            NÚMERO MÁGICO: @ViewData["NúmeroMágico"]
+        </h4>
+    </fieldset>
+</div>

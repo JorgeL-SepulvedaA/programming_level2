@@ -1,0 +1,26 @@
+﻿@model StudentsForm.Models.Students;
+@{
+    ViewBag.Title = "Formulario - ITLA";
+}
+<<div id="encabezado" class="bg-white">
+    <h1 class="text-center text-white">
+        @ViewBag.Tittle
+    </h1>
+    <fieldset id="encabezado1" class="text-justify text-dark">
+        <label>Matrícula: @Model.Matricula</label>
+        <br />
+        <label>Nombre: @Model.Nombre</label>
+        <br />
+        <label>Apellido: @Model.Apellido</label>
+        <br />
+        <label>Fecha de nacmiento: @Model.FechaNacimiento</label>
+        <br />
+        <label>Carrera: @Model.Telefono</label>
+        <br />
+        <label>Dirección: @Model.Email</label>
+        <br />
+        <label>Teléfono: @Model.Telefono</label>
+        <br />
+        <label>Email: @Model.Email</label>
+    </fieldset>
+</div>
